@@ -6,6 +6,6 @@ diagrams sliders animations
 python3 -m venv env
 source env/bin/activate
 pip3 install -U pip wheel
-pip3 install plotly numpy jupyter ipykernel
+pip3 install plotly numpy jupyter ipykernel pandas dash
 ipython kernel install --user --name="py3graphics"
 ```
